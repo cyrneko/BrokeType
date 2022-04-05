@@ -77,7 +77,7 @@ typedValueElement.addEventListener('input', () => {
     } else if (currentWord.startsWith(typedValue)) {
         // currently correct
         // highlight the next word
-        typedValueElement.className = '';
+        typedValueElement.className = 'inputbox';
     } else {
         // error state
         typedValueElement.className = 'error';
