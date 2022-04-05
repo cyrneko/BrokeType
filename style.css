@@ -39,5 +39,8 @@ body {
     text-align: center;
     color: white;
     background-color: #151515;
-    padding: 10vw;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
