@@ -3,6 +3,14 @@
     border-radius: 2.5px;
 }
 
+.message {
+    background-color: lightgreen;
+    color: black;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    border-radius: 2.5px;
+}
+
 .error {
     background-color: lightcoral;
     border: red;
