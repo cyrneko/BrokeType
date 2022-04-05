@@ -3,6 +3,10 @@
     border-radius: 2.5px;
 }
 
+.beginningParagraphs {
+    font-size: 10px;
+}
+
 .message {
     background-color: lightgreen;
     color: black;
