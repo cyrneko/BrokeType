@@ -1,0 +1,43 @@
+.highlight {
+    background-color: rgb(122, 122, 0);
+    border-radius: 2.5px;
+}
+
+.error {
+    background-color: lightcoral;
+    border: red;
+    width: 20rem;
+    height: 2rem;
+    color: white;
+    border-style: none;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.inputbox {
+    background-color: #1f1f1f;
+    width: 20rem;
+    height: 2rem;
+    color: white;
+    border-style: none;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.startbutton {
+    background-color: #1f1f1f;
+    width: 6rem;
+    height: 2rem;
+    color: white;
+    border-style: none;
+    border-radius: 2rem;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    background-color: #151515;
+    padding: 10vw;
+}
