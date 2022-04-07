@@ -1,69 +1,95 @@
 .highlight {
-    background-color: rgb(122, 122, 0);
-    border-radius: 2.5px;
+  background-color: rgb(111, 105, 139);
+  border-radius: 2.5px;
 }
 
 .beginningParagraphs {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .message {
-    background-color: lightgreen;
-    color: black;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    border-radius: 2.5px;
+  background-color: lightgreen;
+  color: black;
+  border-radius: 2rem;
 }
 
 .error {
-    background-color: lightcoral;
-    border: red;
-    width: 20rem;
-    height: 2rem;
-    color: white;
-    border-style: none;
-    border-radius: 2rem;
-    text-align: center;
+  background-color: lightcoral;
+  border: red;
+  max-width: 20vw;
+  min-width: 15vw;
+  height: 2rem;
+  color: black;
+  border-style: solid;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.startbutton,
+.inputbox {
+  background-color: #1f1f1f;
+  color: white;
+  border-radius: 2rem;
+  border-style: none;
 }
 
 .inputbox {
-    background-color: #1f1f1f;
-    max-width: 20rem;
-    height: 2rem;
-    color: white;
-    border-style: none;
-    border-radius: 2rem;
-    text-align: center;
-    margin-bottom: 5px;
+  max-width: 20vw;
+  min-width: 15vw;
+  height: 34px;
+  text-align: center;
+  margin-bottom: 5px;
 }
 
 .startbutton {
-    background-color: #1f1f1f;
-    width: 6rem;
-    height: 2rem;
-    color: white;
-    border-style: none;
-    border-radius: 2rem;
+  background-color: #1f1f1f;
+  width: 10vw;
+  height: 38px;
+  color: white;
 }
 
 .welcome {
-    text-decoration: underline!important;
+  text-decoration: underline;
+  text-decoration-color: rgb(183, 173, 230) !important;
 }
 
 body {
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: white;
-    background-color: #151515;
-    /* I adjusted the padding whilst in School, I have no idea if this looks any good */
-    padding-top: 20vh;
-    padding-bottom: 10vh;
-    padding-left: 10vw;
-    padding-right: 10vw;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+  background-image: url(./background.jpg);
+  /* background-color: #151515; */
+  /* I adjusted the padding whilst in School, I have no idea if this looks any good */
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  box-sizing: border box;
 }
 
-hr, .message {
-    margin-left: 20%;
-    margin-right: 20%;
+hr,
+.message {
+  /* margin-left: 20%;
+    margin-right: 20%; */
+  margin: auto;
+}
+
+hr {
+  border: 0;
+  border-top: 2.5px solid #1f1f1f;
+}
+
+.quotebox {
+  background-color: #1f1f1f;
+  border-radius: 2rem;
+  padding: 1px;
+  min-width: 10px;
+  margin: auto;
+}
+
+.body {
+  background-color: #1a1a1a;
+  border-radius: 2rem;
+  padding: 5%;
 }
