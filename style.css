@@ -1,6 +1,9 @@
+@import url('https://unpkg.com/@catppuccin/palette@0.1.1/css/catppuccin.css');
+
 .highlight {
-  background-color: rgb(111, 105, 139);
+  background-color: var(--ctp-mocha-lavender); 
   border-radius: 2.5px;
+  color: black;
 }
 
 .beginningParagraphs {
@@ -8,14 +11,17 @@
 }
 
 .message {
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
+  background-color: var(--ctp-mocha-green);
   color: black;
   border-radius: 2rem;
+  /* padding-top: 10px; */
+  /* padding-bottom: 10px; */
 }
 
 .error {
-  background-color: lightcoral;
-  border: red;
+  background-color: var(--ctp-mocha-red);
+  border: var(--ctp-mocha-red);
   max-width: 20vw;
   min-width: 15vw;
   height: 2rem;
@@ -27,7 +33,7 @@
 
 .startbutton,
 .inputbox {
-  background-color: #1f1f1f;
+  background-color: var(--ctp-mocha-mantle);
   color: white;
   border-radius: 2rem;
   border-style: none;
@@ -42,7 +48,6 @@
 }
 
 .startbutton {
-  background-color: #1f1f1f;
   width: 10vw;
   height: 38px;
   color: white;
@@ -50,7 +55,7 @@
 
 .welcome {
   text-decoration: underline;
-  text-decoration-color: rgb(183, 173, 230) !important;
+  text-decoration-color: var(--ctp-mocha-lavender) !important;
 }
 
 body {
@@ -58,13 +63,19 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   color: white;
-  background-image: url(./background.jpg);
+  /* background-image: url(./background.jpg); */
+  background-image: url(https://raw.githubusercontent.com/catppuccin/wallpapers/main/misc/rainbow.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100%;
   /* background-color: #151515; */
   /* I adjusted the padding whilst in School, I have no idea if this looks any good */
   padding-top: 20vh;
   padding-bottom: 10vh;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  padding-inline: 15vw;
+  /* padding-left: 10vw; */
+  /* padding-right: 10vw; */
   box-sizing: border box;
 }
 
@@ -81,7 +92,7 @@ hr {
 }
 
 .quotebox {
-  background-color: #1f1f1f;
+  background-color: var(--ctp-mocha-mantle);
   border-radius: 2rem;
   padding: 1px;
   min-width: 10px;
@@ -89,7 +100,10 @@ hr {
 }
 
 .body {
-  background-color: #1a1a1a;
+  background-color: var(--ctp-mocha-base);
   border-radius: 2rem;
   padding: 5%;
+  border-style: solid;
+  border-color: var(--ctp-mocha-crust);
+  border-size: 1px;
 }
